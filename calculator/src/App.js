@@ -70,8 +70,8 @@ class App extends Component {
             <div>
                 <div className="calculator-body">
                     <h1>Calculator</h1>
-                    <ResultComponent result={this.state.result}/>
-                    <KeyPadComponent onClick={this.onClick}/>
+                    <Result result={this.state.result}/>
+                    <KeyPad onClick={this.onClick}/>
                 </div>
             </div>
         );
